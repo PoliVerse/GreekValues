@@ -1,0 +1,76 @@
+.ideologies {
+    font-weight: 600;
+    text-align: center;
+}
+
+.ideologies-category > h2 {
+    font-weight: 700;
+}
+
+.ideology {
+    padding: 0 25%;
+}
+
+.ideology-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.ideologies-p {
+    font-weight: 500;
+}
+
+.communism-id {
+    color: #800000;
+}
+
+.socialism-id {
+    color: #CC0000;
+}
+
+.social-democracy-id {
+    color: #FF0000;
+}
+
+.green-id {
+    color: #00FF00;
+}
+
+.anarchism-id {
+    color: #A6A6A6A6;
+}
+
+.centre-id {
+    color: #FFDB4D;
+}
+
+.centre-right-id {
+    color: #0099FF;
+}
+
+.conservatism-id {
+    color: #0000FF;
+}
+
+.nationalism-id {
+    color: #000080;
+}
+
+.ultra-nationalism-id {
+    color: #666666;
+}
+
+.national-socialism-id {
+    color: #663300;
+}
+
+@media screen and (max-width: 768px) {
+    .ideology {
+        flex-direction: column;
+        padding: 0 2em;
+    }
+
+    .ideology-title {
+        width: 100%;
+    }
+}

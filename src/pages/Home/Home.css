@@ -1,0 +1,14 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+    font-weight: 700 !important;
+    overflow: hidden;
+    text-align: center;
+}
+
+.home > * {
+    margin: 0 2em;
+}

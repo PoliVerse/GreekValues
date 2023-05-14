@@ -1,0 +1,24 @@
+.instructions {
+    width: 100%;
+    height: 100vh;
+}
+
+.instructions-box {
+    background: #013A70;
+    border-radius: 10px;
+    font-weight: 600;
+    margin: 20px 0;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+.instructions-title {
+    font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+    .instructions-box {
+        width: 90vw;
+        margin: 10px auto;
+    }
+}

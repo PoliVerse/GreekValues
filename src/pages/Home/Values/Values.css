@@ -1,0 +1,93 @@
+.gv-values-title, .value-title {
+    color: #BBBBBB;
+    font-weight: 700;
+}
+
+.values-pair {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.value {
+    width: 25%;
+    padding: 0 7.5%;
+}
+
+.double-arrow {
+    width: 12%;
+    pointer-events: none;
+}
+
+.conservatism-desc {
+    color: #005C97;
+}
+
+.progressivism-desc {
+    color: #FFBD59;
+}
+
+.capitalism-desc {
+    color: #D4AF37;
+}
+
+.socialism-desc {
+    color: #FF1616;
+}
+
+.authority-desc {
+    color: #8C52FF;
+}
+
+.anarchy-desc {
+    color: #737373;
+}
+
+.religion-desc {
+    color: #5271FF;
+}
+
+.secularism-desc {
+    color: #38B6FF;
+}
+
+.environment-desc {
+    color: #4CB963;
+}
+
+.industry-desc {
+    color: #938274;
+}
+
+.nationalism-desc {
+    color: #FF914D;
+}
+
+.globalism-desc {
+    color: #00C2CB;
+}
+
+.assimilation-desc {
+    color: #FF5757;
+}
+
+.multiculturalism-desc {
+    color: #FF66C4;
+}
+
+@media screen and (max-width: 768px) {
+    .values-pair {
+        flex-direction: column;
+    }
+
+    .value {
+        width: 100%;
+    }
+
+    .double-arrow {
+        width: 17%;
+        transform: rotate(90deg) translateX(-15%);
+    }
+}

@@ -1,0 +1,94 @@
+.gv-title {
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.start-btn {
+    width: 200px;
+}
+
+.banner {
+    height: 150vh;
+}
+
+.values {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.value-frame {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.religion-frame {
+    margin-left: 35%;
+}
+
+.value-frame > h3 {
+    font-weight: 600 !important;
+}
+
+.value-icon {
+    border-radius: 25px;
+    width: 160px;
+    height: 160px;
+}
+
+.value-icon:hover {
+    animation: scale 1s infinite;
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .gv-title {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    .banner {
+        height: 210vh;
+    }
+
+    .start-btn{
+        margin-block-start: 2em;
+    }
+
+    .values {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .value-icon {
+        width: 140px;
+        height: 140px;
+    }
+
+    .value-frame > * {
+        margin-left: 5%;
+    }
+
+    .religion-frame {
+        margin-left: 1%;
+    }
+}

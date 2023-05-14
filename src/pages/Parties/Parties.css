@@ -1,0 +1,115 @@
+.parties {
+    font-weight: 600;
+    text-align: center;
+}
+
+.parties-category > h2 {
+    font-weight: 700;
+}
+
+.party {
+    padding: 0 15%;
+}
+
+.party-div {
+    gap: 1em;
+}
+
+.party-logo {
+    width: 4.5em;
+    height: 4.5em;
+    pointer-events: none;
+}
+
+.party-info {
+    margin-left: 4em;
+    text-align: left;
+}
+
+.party-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.parties-p {
+    font-weight: 500;
+}
+
+.kke-ml-id {
+    color: #D7062C;
+}
+
+.kke-id {
+    color: #DF251C;
+}
+
+.antarsya-id {
+    color: #D82F33;
+}
+
+.pe-id {
+    color: #972490;
+}
+
+.mera25-id {
+    color: #EB4326;
+}
+
+.syriza-id {
+    color: #CC1C24;
+}
+
+.pm-id {
+    color: #509E2F;
+}
+
+.pasok-id {
+    color: #00793A;
+}
+
+.ek-id {
+    color: #F2D308;
+}
+
+.epam-id {
+    color: #16459A;
+}
+
+.nd-id {
+    color: #1D6EC8;
+}
+
+.el-id {
+    color: #8DBEE2;
+}
+
+.pe-pe-id {
+    color: #F0D95D;
+}
+
+.ed-id {
+    color: #EB8C1E;
+}
+
+.ellines-id {
+    color: #072C80;
+}
+
+.ultra-nationalism-id {
+    color: #666666;
+}
+
+.xa-id {
+    color: #375992;
+}
+
+@media screen and (max-width: 768px) {
+    .party {
+        flex-direction: column;
+        padding: 0 2em;
+    }
+
+    .party-title {
+        width: 100%;
+    }
+}

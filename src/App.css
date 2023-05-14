@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Ek+Mukta:400,700/Source+Sans+Pro:400,600,700');
+
+* {
+  box-sizing: border-box;
+  color: #FFF;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.App {
+  background-color: #001A33;
+}
+
+.results {
+  color: #C0C0C0 !important;
+}
+
+.footer {
+  background: #222222;
+}
+
+#footer-header {
+  font-family: 'Ek Mukta', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  #gv-nav {
+    display: none !important;
+  }
+
+  .poliverse-logo {
+    width: 120px;
+    height: 50px;
+  }
+
+  .gv-logo {
+    width: 150px;
+    height: 45px;
+  }
+}

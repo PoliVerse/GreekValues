@@ -1,0 +1,150 @@
+.results {
+    gap: 2em;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.axis-image {
+    pointer-events: none;
+}
+
+.element {
+    margin: 2em;
+}
+
+.element-title {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.axis {
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bar {
+    width: 100%;
+    height: 36pt;
+    background-color: #EEEEEE;
+    border: 4px;
+    border-color: #222222;
+    border-bottom-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    display: block;
+    line-height: 36pt;
+    margin-top: 4pt;
+    margin-bottom: 4pt;
+    padding: 8pt;
+}
+
+.text-wrapper-conservatism, .text-wrapper-progressivism, .text-wrapper-capitalism, .text-wrapper-socialism, .text-wrapper-authority, .text-wrapper-anarchy, .text-wrapper-religion, .text-wrapper-secularism, .text-wrapper-environment, .text-wrapper-industry, .text-wrapper-nationalism, .text-wrapper-globalism, .text-wrapper-assimilation, .text-wrapper-multiculturalism {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.75em;
+    font-weight: bold;
+    line-height: 36pt;
+    display: inline-block;
+}
+
+.conservatism, .capitalism, .authority, .religion, .environment, .nationalism, .assimilation {
+    height: 4em;
+    border-left-width: 0px;
+    text-align: left;
+}
+
+.progressivism, .socialism, .anarchy, .secularism, .industry, .globalism, .multiculturalism {
+    height: 4em;
+    border-right-width: 0px;
+    text-align: right;
+}
+
+.conservatism {
+    background-color: #005C97;
+}
+
+.progressivism {
+    background-color: #FFBD59;
+}
+
+.capitalism {
+    background-color: #D4AF37;
+}
+
+.socialism {
+    background-color: #FF1616;
+}
+
+.authority {
+    background-color: #8C52FF;
+}
+
+.anarchy {
+    background-color: #737373;
+}
+
+.religion {
+    background-color: #5271FF;
+}
+
+.secularism {
+    background-color: #38B6FF;
+}
+
+.environment {
+    background-color: #4CB963;
+}
+
+.industry {
+    background-color: #938274;
+}
+
+.nationalism {
+    background-color: #FF914D;
+}
+
+.globalism {
+    background-color: #00C2CB;
+}
+
+.assimilation {
+    background-color: #FF5757;
+}
+
+.multiculturalism {
+    background-color: #FF66C4;
+}
+
+.weight-300 {
+    font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+    .axis {
+        width: 90vw;
+    }
+
+    .axis-image {
+        width: 95px;
+        height: 95px;
+    }
+
+    .bar {
+        width: 80%;
+    }
+
+    .text-wrapper-conservatism, .text-wrapper-progressivism, .text-wrapper-capitalism, .text-wrapper-socialism, .text-wrapper-authority, .text-wrapper-anarchy, .text-wrapper-religion, .text-wrapper-secularism, .text-wrapper-environment, .text-wrapper-industry, .text-wrapper-nationalism, .text-wrapper-globalism, .text-wrapper-assimilation, .text-wrapper-multiculturalism {
+        font-size: 1.2em !important;
+    }
+
+    .results-btn {
+        width: 40% !important;
+    }
+}
