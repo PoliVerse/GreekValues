@@ -51,7 +51,7 @@ export default function Ideologies() {
             <Stack className='ideologies-category' gap={4}>
                 <h2><span className='conservatism-id'>Συντηρητισμός</span>-<span className='nationalism-id'>Εθνικισμός</span></h2>
                 <Stack className='ideologies-list' gap={3}>
-                    <Ideology ideology='Συντηρητισμός' color='conservatism-id' description={`O ${<span className='conservatism-id'>Συντηρητισμός</span>} υποστηρίζει την διατήρηση παραδοσιακών αξιών ενώ στην Ελλάδα τείνει προς τον οικονομικό παρεμβατισμό αντί της αγοράς. Όλα τα κόμματα από τη Νέα Δημοκρατία και μετά έχουν συντηρητικές θέσεις.`} />
+                    <Ideology ideology='Συντηρητισμός' color='conservatism-id' description={`O Συντηρητισμός υποστηρίζει την διατήρηση παραδοσιακών αξιών ενώ στην Ελλάδα τείνει προς τον οικονομικό παρεμβατισμό αντί της αγοράς. Όλα τα κόμματα από τη Νέα Δημοκρατία και μετά έχουν συντηρητικές θέσεις.`} />
                     <Ideology ideology='Εθνικισμός' color='nationalism-id' description='O Εθνικισμός σκοπεύει στην διατήρηση των χαρακτηριστικών που διέπουν το έθνος και τον οικονομικό προστατευτισμό. Γνωστά εθνικιστικά κόμματα στην Ελλάδα είναι η Ελληνική Λύση, oι Έλληνες και η Χρυσή Αυγή.' />
                     <Ideology ideology='Μοναρχισμός' color='nationalism-id' description='O Μοναρχισμός υποστηρίζει την καθιέρωση του βασιλιά ως αρχηγού κράτους, συνήθως σε ένα κοινοβουλευτικό πολίτευμα. H τάση αυτή έχει υποχωρήσει μετά το 1974.' />
                 </Stack>
