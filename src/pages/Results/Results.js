@@ -97,7 +97,7 @@ export default function Results({a, b, c, d, e, f, g}) {
     }
 
     return (
-        <div className='results d-flex flex-column justify-content-center align-items-center'>
+        <div className='results d-flex flex-column justify-content-center align-items-center text-center'>
             <h1>Αποτελέσματα</h1>
             <div className='element'>
                 <h2 className='element-title text-center'>GreekValues</h2>

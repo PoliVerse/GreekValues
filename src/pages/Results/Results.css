@@ -1,5 +1,10 @@
 .results {
-    gap: 2em;
+    column-gap: 5em;
+    padding: 2em 0;
+}
+
+.element {
+    padding: 0 7.5em !important;
 }
 
 .text-left {
