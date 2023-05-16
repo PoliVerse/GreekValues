@@ -27,7 +27,7 @@
     text-align: right;
 }
 
-.axis-image {
+.axis-image, .party-image {
     pointer-events: none;
 }
 

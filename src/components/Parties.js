@@ -12,7 +12,7 @@ import EPAM from '../assets/img/parties/EPAM.png';
 import ANTARSYA from '../assets/img/parties/ANTARSYA.png';
 import KKEML from '../assets/img/parties/KKE M-L.png';
 import NIKI from '../assets/img/parties/NIKI.png';
-import Ellines from '../assets/img/parties/Ellines.png';
+import EKE from '../assets/img/parties/EKE.png';
 import PATRIDA from '../assets/img/parties/PATRIDA.png';
 import PM from '../assets/img/parties/PM.png';
 
@@ -49,7 +49,7 @@ const parties = [
         "name": "Ελληνική Λύση (EΛ)",
         "desc": "Κόμμα με εθνικές συντηρητικές απόψεις που ιδρύθηκε το 2016. Αναδύθηκε στην επιφάνεια το 2018 μετά την υπογραφή της συμφωνίας των Πρεσπών. Έχει έντονη εκλογική απήχηση στα γηραιότερα στρώματα στην Μακεδονία.",
         "img": EL,
-        "style": { "width": "55px", "height": "55px" },
+        "style": { "width": "80px", "height": "35px" },
         "stats": { "a": 85, "b": 55, "c": 80, "d": 82.5, "e": 20, "f": 70, "g": 90 }
     },
     {
@@ -118,7 +118,7 @@ const parties = [
     {
         "name": "Εθνικό Κόμμα Έλληνες (ΕΚΕ)",
         "desc": "Εθνικιστικό κόμμα που δημιουργήθηκε το 2020 μετά από διάσπαση στη Χρυσή Αυγή. Έχει απήχηση σε πρώην ψηφοφόρους της Χρυσής Αυγής και νέους. Τέθηκε εκτός εκλογών από τον Άρειο Πάγο.",
-        "img": Ellines,
+        "img": EKE,
         "style": { "width": "70px", "height": "80px" },
         "stats": { "a": 100, "b": 20, "c": 90, "d": 100, "e": 15, "f": 80, "g": 95 }
     },
