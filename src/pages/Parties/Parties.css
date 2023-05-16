@@ -21,6 +21,18 @@
     pointer-events: none;
 }
 
+.img-35 {
+    height: 3.5em;
+}
+
+.img-3 {
+    height: 3em;
+}
+
+.img-275 {
+    height: 2.75em;
+}
+
 .party-info {
     margin-left: 4em;
     text-align: left;
@@ -83,8 +95,8 @@
     color: #8DBEE2;
 }
 
-.pe-pe-id {
-    color: #F0D95D;
+.patrida-id {
+    color: #1B395A;
 }
 
 .ed-id {
@@ -95,8 +107,8 @@
     color: #072C80;
 }
 
-.ultra-nationalism-id {
-    color: #666666;
+.niki-id {
+    color: #BD552C;
 }
 
 .xa-id {

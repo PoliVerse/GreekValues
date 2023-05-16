@@ -71,7 +71,7 @@ export default function Results({a, b, c, d, e, f, g}) {
         }
 
         similarity = 100 - Math.round(similarity / 7);
-        partyMatches.push({ "name": party.name, "desc": party.desc, "similarity": similarity });
+        partyMatches.push({ "name": party.name, "desc": party.desc, "img": party.img, "width": party.style.width, "height": party.style.height, "similarity": similarity });
     }
 
     // Find the closest party based on similarity
@@ -89,7 +89,8 @@ export default function Results({a, b, c, d, e, f, g}) {
         partyMatches = partyMatches.filter((party) => party.name !== closestParty.name);
         partyMatches = partyMatches.sort((a, b) => b.similarity - a.similarity);
         return partyMatches.map((party) => (
-            <Stack className='party' direction='horizontal' gap={3} key={party.name}>
+            <Stack className='party' direction='horizontal' gap={5} key={party.name}>
+                <img src={party.img} alt={party.name} className='party-image' width={party.width} height={party.height} />
                 <h3 className='text-left'>{party.name}</h3>
                 <h2 className='text-right'>{party.similarity}%</h2>
             </Stack>
@@ -117,10 +118,10 @@ export default function Results({a, b, c, d, e, f, g}) {
                 <Axis img1={Assimilation} ideology1='assimilation' value={g} img2={Multiculturalism} ideology2='multiculturalism' />
             </div>
             <Element header='Πλησιέστερη Ιδεολογία' label='ideology-label' spanlabel={closestIdeology.name} desc='ideodesc' desclabel='ideodesc-label' next='next-ideology-matches' p='Με πλησιέστερο το 100% και χαμηλότερο το 0%, δείτε πώς αντιστοχείτε τις άλλες ιδεολογίες' fn={listIdeologies()} />
-            <Element header='Πλησιέστερο Κόμμα' label='party-label' spanlabel={closestParty.name} desc='partydesc' desclabel='partydesc-label' next='next-party-matches' p='Με πλησιέστερο το 100% και χαμηλότερο το 0%, δείτε πώς αντιστοχείτε τα άλλα κόμματα' fn={listParties()} />
+            <Element header='Πλησιέστερο Κόμμα' label='party-label' spanlabel={closestParty.name} desc='partydesc' desclabel='partydesc-label' img={closestParty.img} next='next-party-matches' p='Με πλησιέστερο το 100% και χαμηλότερο το 0%, δείτε πώς αντιστοχείτε τα άλλα κόμματα' fn={listParties()} />
             <div className='element'>
                 <h2>Δεν μου αρέσουν τα αποτελέσματα!</h2>
-                <p>Θυμηθείτε ότι ο στόχος σας δεν είναι να πάρετε 100% στα πάντα αλλά να δείτε πόσο συμφωνείτε με κάποιες θέσεις. Εάν θέλετε να στείλετε εποικοδομητική κριτική, επικοινωνήστε στο Email.</p>
+                <p>Θυμηθείτε ότι ο στόχος σας δεν είναι να πάρετε 100% στα πάντα αλλά να δείτε πόσο συμφωνείτε με κάποιες θέσεις. Εάν θέλετε να στείλετε εποικοδομητική κριτική, επικοινωνήστε στο <a href='https://github.com/PoliVerse/GreekValues/discussions'>GitHub</a>.</p>
             </div>
             <Button className='results-btn' href='/' size='lg' variant='outline-primary'>Πίσω</Button>
         </div>
