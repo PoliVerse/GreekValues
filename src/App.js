@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
+import ScrollButton from './components/ScrollButton';
 import Home from './pages/Home/Home';
 import Ideologies from './pages/Ideologies/Ideologies';
 import Instructions from './pages/Instructions/Instructions';
@@ -24,6 +25,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Header />
+        <ScrollButton />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/ideologies" element={<Ideologies />} />
