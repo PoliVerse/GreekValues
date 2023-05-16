@@ -13,7 +13,6 @@ export default function Footer() {
                     <p>Copyright @{currentYear} Poliverse</p>
                 </Stack>
                 <Stack gap={3}>
-                    {/* <h1>GreekValues</h1> */}
                     <img src={GreekValues} alt='GreekValues Logo' className='gv-logo' width='205' height='65' />
                     <p>Το απόλυτο κουίζ του ελληνικού πολιτικού φάσματος</p>
                 </Stack>
