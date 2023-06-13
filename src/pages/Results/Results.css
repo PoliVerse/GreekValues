@@ -144,6 +144,10 @@
 }
 
 @media screen and (max-width: 768px) {
+    .results {
+        overflow: hidden;
+    }
+
     .party-image {
         width: 15%;
         height: 15%;
@@ -163,6 +167,10 @@
     }
 
     .text-wrapper-conservatism, .text-wrapper-progressivism, .text-wrapper-capitalism, .text-wrapper-socialism, .text-wrapper-authority, .text-wrapper-anarchy, .text-wrapper-religion, .text-wrapper-secularism, .text-wrapper-environment, .text-wrapper-industry, .text-wrapper-nationalism, .text-wrapper-globalism, .text-wrapper-assimilation, .text-wrapper-multiculturalism {
+        font-size: 1.2em !important;
+    }
+
+    .ideology > *, .party > * {
         font-size: 1.2em !important;
     }
 
