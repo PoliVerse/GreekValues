@@ -121,7 +121,7 @@ export default function Results({a, b, c, d, e, f, g}) {
             <Element header='Πλησιέστερο Κόμμα' label='party-label' spanlabel={closestParty.name} desc='partydesc' desclabel='partydesc-label' img={closestParty.img} next='next-party-matches' p='Με πλησιέστερο το 100% και χαμηλότερο το 0%, δείτε πώς αντιστοχείτε τα άλλα κόμματα' fn={listParties()} />
             <div className='element'>
                 <h2>Δεν μου αρέσουν τα αποτελέσματα!</h2>
-                <p>Θυμηθείτε ότι ο στόχος σας δεν είναι να πάρετε 100% στα πάντα αλλά να δείτε πόσο συμφωνείτε με κάποιες θέσεις. Εάν θέλετε να στείλετε εποικοδομητική κριτική, επικοινωνήστε στο <a href='https://github.com/PoliVerse/GreekValues/discussions'>GitHub</a>.</p>
+                <p>Θυμηθείτε ότι ο στόχος σας δεν είναι να πάρετε 100% στα πάντα αλλά να δείτε πόσο συμφωνείτε με κάποιες θέσεις. Εάν θέλετε να στείλετε εποικοδομητική κριτική, επικοινωνήστε στο <a href='mailto:poliversegr@zohomail.eu'>poliversegr@zohomail.eu</a>.</p>
             </div>
             <Button className='results-btn' href='/' size='lg' variant='outline-primary'>Πίσω</Button>
         </div>
