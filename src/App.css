@@ -8,6 +8,11 @@
 
 .App {
   background-color: #001A33;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: stretch;
+  gap: 3em;
 }
 
 .results {
