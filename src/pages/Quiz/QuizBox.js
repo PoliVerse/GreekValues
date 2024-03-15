@@ -9,13 +9,21 @@ export default function QuizBox({a, b, c, d, e, f, g, showResults, setA, setB, s
 
     // Go to the next question and update the values
     const nextQuestion = (answer) => {
-        setA(a + answer * questions[currentQuestion].effect.a);
-        setB(b + answer * questions[currentQuestion].effect.b);
-        setC(c + answer * questions[currentQuestion].effect.c);
-        setD(d + answer * questions[currentQuestion].effect.d);
-        setE(e + answer * questions[currentQuestion].effect.e);
-        setF(f + answer * questions[currentQuestion].effect.f);
-        setG(g + answer * questions[currentQuestion].effect.g);
+        const nextA = a + answer * questions[currentQuestion].effect.a;
+        const nextB = b + answer * questions[currentQuestion].effect.b;
+        const nextC = c + answer * questions[currentQuestion].effect.c;
+        const nextD = d + answer * questions[currentQuestion].effect.d;
+        const nextE = e + answer * questions[currentQuestion].effect.e;
+        const nextF = f + answer * questions[currentQuestion].effect.f;
+        const nextG = g + answer * questions[currentQuestion].effect.g;
+
+        setA(Math.max(0, Math.min(100, nextA)));
+        setB(Math.max(0, Math.min(100, nextB)));
+        setC(Math.max(0, Math.min(100, nextC)));
+        setD(Math.max(0, Math.min(100, nextD)));
+        setE(Math.max(0, Math.min(100, nextE)));
+        setF(Math.max(0, Math.min(100, nextF)));
+        setG(Math.max(0, Math.min(100, nextG)));
         if (currentQuestion < questions.length - 1) {
           setCurrentQuestion(currentQuestion + 1);
         } else {
@@ -30,13 +38,20 @@ export default function QuizBox({a, b, c, d, e, f, g, showResults, setA, setB, s
     const previousQuestion = () => {
         if (currentQuestion > 0) {
             setCurrentQuestion(currentQuestion - 1);
-            setA(a - questions[currentQuestion-1].effect.a);
-            setB(b - questions[currentQuestion-1].effect.b);
-            setC(c - questions[currentQuestion-1].effect.c);
-            setD(d - questions[currentQuestion-1].effect.d);
-            setE(e - questions[currentQuestion-1].effect.e);
-            setF(f - questions[currentQuestion-1].effect.f);
-            setG(g - questions[currentQuestion-1].effect.g);
+            const previousA = a - questions[currentQuestion-1].effect.a;
+            const previousB = b - questions[currentQuestion-1].effect.b;
+            const previousC = c - questions[currentQuestion-1].effect.c;
+            const previousD = d - questions[currentQuestion-1].effect.d;
+            const previousE = e - questions[currentQuestion-1].effect.e;
+            const previousF = f - questions[currentQuestion-1].effect.f;
+            const previousG = g - questions[currentQuestion-1].effect.g;
+            setA(Math.max(0, Math.min(100, previousA)));
+            setB(Math.max(0, Math.min(100, previousB)));
+            setC(Math.max(0, Math.min(100, previousC)));
+            setD(Math.max(0, Math.min(100, previousD)));
+            setE(Math.max(0, Math.min(100, previousE)));
+            setF(Math.max(0, Math.min(100, previousF)));
+            setG(Math.max(0, Math.min(100, previousG)));
         }
     };
 
