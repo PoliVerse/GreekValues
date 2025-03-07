@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-bootstrap/dist/react-bootstrap.min.js';
 
 const loading = () => {
-  <div className="animated fadeIn pt-3 text-center">Loading...</div>
+  <div className='animated fadeIn pt-3 text-center'>Loading...</div>
 };
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
