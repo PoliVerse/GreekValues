@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import ScrollButton from './components/ScrollButton';
+import Archive from './pages/Parties/Archive';
 import Home from './pages/Home/Home';
 import Ideologies from './pages/Ideologies/Ideologies';
 import Instructions from './pages/Instructions/Instructions';
@@ -23,16 +24,17 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div className="App">
+      <div className='App'>
         <Header />
         <ScrollButton />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/ideologies" element={<Ideologies />} />
-          <Route path="/parties" element={<Parties />} />
-          <Route path="/instructions" element={<Instructions />} />
-          <Route path="/quiz" element={<Quiz a={a} b={b} c={c} d={d} e={e} f={f} g={g} showResults={showResults} setA={setA} setB={setB} setC={setC} setD={setD} setE={setE} setF={setF} setG={setG} setShowResults={setShowResults} />} />
-          <Route path="/results" element={<Results a={a} b={b} c={c} d={d} e={e} f={f} g={g} />} />
+          <Route path='/' element={<Home />} />
+          <Route path='/ideologies' element={<Ideologies />} />
+          <Route path='/parties' element={<Parties />} />
+          <Route path='/archive' element={<Archive />} />
+          <Route path='/instructions' element={<Instructions />} />
+          <Route path='/quiz' element={<Quiz a={a} b={b} c={c} d={d} e={e} f={f} g={g} showResults={showResults} setA={setA} setB={setB} setC={setC} setD={setD} setE={setE} setF={setF} setG={setG} setShowResults={setShowResults} />} />
+          <Route path='/results' element={<Results a={a} b={b} c={c} d={d} e={e} f={f} g={g} />} />
         </Routes>
         <Foooter />
       </div>

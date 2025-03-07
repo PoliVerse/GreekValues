@@ -13,10 +13,6 @@
     padding: 0 25%;
 }
 
-.party-div {
-    gap: 1em;
-}
-
 .party-logo {
     width: 4.5em;
     height: 4.5em;
@@ -47,74 +43,6 @@
 
 .parties-p {
     font-weight: 500;
-}
-
-.kke-ml-id {
-    color: #D7062C;
-}
-
-.kke-id {
-    color: #DF251C;
-}
-
-.antarsya-id {
-    color: #D82F33;
-}
-
-.pe-id {
-    color: #972490;
-}
-
-.mera25-id {
-    color: #EB4326;
-}
-
-.syriza-id {
-    color: #CC1C24;
-}
-
-.pm-id {
-    color: #509E2F;
-}
-
-.pasok-id {
-    color: #00793A;
-}
-
-.ek-id {
-    color: #F2D308;
-}
-
-.epam-id {
-    color: #16459A;
-}
-
-.nd-id {
-    color: #1D6EC8;
-}
-
-.el-id {
-    color: #8DBEE2;
-}
-
-.patrida-id {
-    color: #1B395A;
-}
-
-.ed-id {
-    color: #EB8C1E;
-}
-
-.eke-id {
-    color: #072C80;
-}
-
-.niki-id {
-    color: #BD552C;
-}
-
-.xa-id {
-    color: #375992;
 }
 
 @media screen and (max-width: 768px) {
