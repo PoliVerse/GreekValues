@@ -83,60 +83,8 @@
     text-align: right;
 }
 
-.conservatism {
-    background-color: #005C97;
-}
-
-.progressivism {
-    background-color: #FFBD59;
-}
-
-.capitalism {
-    background-color: #D4AF37;
-}
-
-.socialism {
-    background-color: #FF1616;
-}
-
-.authority {
-    background-color: #8C52FF;
-}
-
-.anarchy {
-    background-color: #737373;
-}
-
-.religion {
-    background-color: #5271FF;
-}
-
-.secularism {
-    background-color: #38B6FF;
-}
-
-.environment {
-    background-color: #4CB963;
-}
-
-.industry {
-    background-color: #938274;
-}
-
-.nationalism {
-    background-color: #FF914D;
-}
-
-.globalism {
-    background-color: #00C2CB;
-}
-
-.assimilation {
-    background-color: #FF5757;
-}
-
-.multiculturalism {
-    background-color: #FF66C4;
+.screenshot-btn {
+    background: #0055A0 !important;
 }
 
 .weight-300 {
