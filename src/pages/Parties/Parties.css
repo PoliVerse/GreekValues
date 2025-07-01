@@ -31,6 +31,10 @@
     height: 2.75em;
 }
 
+.img-25 {
+    height: 2.5em;
+}
+
 .party-info {
     margin-left: 4em;
     text-align: left;
@@ -46,13 +50,15 @@
 }
 
 @media screen and (max-width: 768px) {
-    .party {
+    .party div {
         flex-direction: column;
+        Justify-content: center;
+        gap: 1em;
         font-size: 80%;
         padding: 0 2em;
     }
 
     .party-title {
-        width: 100%;
+        display: none;
     }
 }
