@@ -12,7 +12,7 @@ export default function Values() {
                     <div className='values-pair'>
                         <Stack className='value' gap={2}>
                             <h2 className="value-title conservatism-desc">ΣΥΝΤΗΡΗΤΙΣΜΟΣ</h2>
-                            <p>Υψηλότερα αποτελέσματα στον <span className="conservatism-desc">Συντηρητισμό</span> σημαίνουν μεγαλύτερη πίστη στις παραδοσιακές αξίες του ελληνικού έθνους. </p>
+                            <p>Υψηλότερα αποτελέσματα στο <span className="conservatism-desc">Συντηρητισμό</span> σημαίνουν μεγαλύτερη πίστη στις παραδοσιακές αξίες του ελληνικού έθνους. </p>
                         </Stack>
                         <img className="double-arrow" src={DoubleArrow} alt="double-arrow" width='150' height='75' />
                         <Stack className='value' gap={2}>
@@ -28,7 +28,7 @@ export default function Values() {
                         <img className="double-arrow" src={DoubleArrow} alt="double-arrow" width='150' height='75' />
                         <Stack className='value' gap={2}>
                             <h2 className="value-title socialism-desc">ΣΟΣΙΑΛΙΣΜΟΣ</h2>
-                            <p>Άτομα με υψηλά αποτελέσματα στον <span className="socialism-desc">Σοσιαλισμό</span> υποστηρίζουν την εκτεταμένη παρέμβαση της κυβέρνησης στην οικονομία ή και την κρατικοποίηση πολλών τομέων.</p>
+                            <p>Άτομα με υψηλά αποτελέσματα στο <span className="socialism-desc">Σοσιαλισμό</span> υποστηρίζουν την εκτεταμένη παρέμβαση της κυβέρνησης στην οικονομία ή και την κρατικοποίηση πολλών τομέων.</p>
                         </Stack>
                     </div>
                     <div className='values-pair' gap={3}>
@@ -45,7 +45,7 @@ export default function Values() {
                     <div className='values-pair' gap={5}>
                         <Stack className='value' gap={2}>
                             <h2 className="value-title religion-desc">ΘΡΗΣΚΕΙΑ</h2>
-                            <p>Άτομα με υψηλά αποτελέσματα στην <span className="religion-desc">Θρησκεία</span> ταυτίζονται με την υποστήριξη της θρησκείας στην κοινωνία και σε κάποιες περιπτώσεις την επιρροή της στην πολιτική.</p>
+                            <p>Άτομα με υψηλά αποτελέσματα στη <span className="religion-desc">Θρησκεία</span> ταυτίζονται με την υποστήριξη της θρησκείας στην κοινωνία και σε κάποιες περιπτώσεις την επιρροή της στην πολιτική.</p>
                         </Stack>
                         <img className="double-arrow" src={DoubleArrow} alt="double-arrow" width='150' height='75' />
                         <Stack className='value' gap={2}>
@@ -61,18 +61,18 @@ export default function Values() {
                         <img className="double-arrow" src={DoubleArrow} alt="double-arrow" width='150' height='75' />
                         <Stack className='value' gap={2}>
                             <h2 className="value-title industry-desc">ΒΙΟΜΗΧΑΝΙΑ</h2>
-                            <p>Άτομα με υψηλά αποτελέσματα στην <span className="industry-desc">Βιομηχανία</span> εναντιώνονται σε περιβαλλοντικές διατάξεις που θεωρούνται ότι περιορίζουν την παραγωγή.</p>
+                            <p>Άτομα με υψηλά αποτελέσματα στη <span className="industry-desc">Βιομηχανία</span> εναντιώνονται σε περιβαλλοντικές διατάξεις που θεωρούνται ότι περιορίζουν την παραγωγή.</p>
                         </Stack>
                     </div>
                     <div className='values-pair' gap={3}>
                         <Stack className='value' gap={2}>
                             <h2 className="value-title nationalism-desc">ΕΘΝΙΚΙΣΜΟΣ</h2>
-                            <p>Άτομα με υψηλά αποτελέσματα στον <span className="nationalism-desc">Εθνικισμό</span> τοποθετούν την Ελλάδα πάνω από το παγκόσμιο συμφέρον και εμφανίζονται σκεπτικοί σε διακρατικές οργανώσεις όπως και το ευρώ.</p>
+                            <p>Άτομα με υψηλά αποτελέσματα στον <span className="nationalism-desc">Εθνικισμό</span> τοποθετούν την Ελλάδα πάνω από το παγκόσμιο συμφέρον και εμφανίζονται σκεπτικοί σε διακρατικές οργανώσεις και τη χρήση του Ευρώ.</p>
                         </Stack>
                         <img className="double-arrow" src={DoubleArrow} alt="double-arrow" width='150' height='75' />
                         <Stack className='value' gap={2}>
-                            <h2 className="value-title globalism-desc">ΠΑΓΚΟΣΜΙΟΠΟΙΗΣΗ</h2>
-                            <p>Άτομα με υψηλά αποτελέσματα στην <span className="globalism-desc">Παγκοσμιοποίηση</span> υποστηρίζουν οργανώσεις όπως την Ευρωπαϊκή Ένωση και το NATO και δείχνουν λιγότερη έμφαση στην εθνικά συμφέροντα.</p>
+                            <h2 className="value-title globalism-desc">ΔΙΕΘΝΙΣΜΟΣ</h2>
+                            <p>Άτομα με υψηλά αποτελέσματα στο <span className="globalism-desc">Διεθνισμό</span> είτε δίνουν έμφαση στα συμφέροντα της Ευρωπαϊκής Ένωσης και του NATO είτε υποστηρίζουν τη σύσφιξη σχέσεων με κράτη βάσει ιδεολογικών και ταξικών κριτηρίων.</p>
                         </Stack>
                     </div>
                     <div className='values-pair' gap={3}>
