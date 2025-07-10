@@ -3,7 +3,7 @@ import { Button, Stack } from "react-bootstrap";
 export default function InstructionsBox() {
     return (
         <Stack className="instructions-box text-center flex-wrap" gap={3}>
-            <h1 className='instructions-title'>Instructions</h1>
+            <h1 className='instructions-title'>Οδηγίες</h1>
             <p>Μια σειρά δηλώσεων θα παρουσιαστούν σε εσάς.<br />
             Για κάθε μία, επιλέξτε το πλαίσιο με τη γνώμη σας.<br />
             Μπορείτε vα δοκιμάσετε το κουίζ σε άλλη γλώσσα εάν κάνετε κλικ στη μπάρα πάνω δεξιά.</p>
