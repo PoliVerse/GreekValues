@@ -5,7 +5,7 @@ import Element from './Element';
 import ValueElement from './ValueElement';
 
 export default function ResultsGraphs(props) {
-    const [screenshot, takeScreenshot] = useScreenshot();
+    let [screenshot, takeScreenshot] = useScreenshot();
     const valueRef = useRef(null);
     const ideologyRef = useRef(null);
     const partyRef = useRef(null);
@@ -13,7 +13,7 @@ export default function ResultsGraphs(props) {
     const getValues = async() => {
         if (valueRef.current) { 
             console.log("Taking screenshot of valueRef");
-            let screenshot = await takeScreenshot(valueRef.current);
+            screenshot = await takeScreenshot(valueRef.current);
             downloadScreenshot(screenshot, "Αποτελέσματα GreekValues.png");
         }
         else console.error('Value reference is not set.');
@@ -21,14 +21,14 @@ export default function ResultsGraphs(props) {
     
     const getIdeologies = async () => {
         if (ideologyRef.current) {
-            let screenshot = await takeScreenshot(ideologyRef.current);
+            screenshot = await takeScreenshot(ideologyRef.current);
             downloadScreenshot(screenshot, "Ιδεολογίες GreekValues.png");
         } else console.error('Ideology reference is not set.');
     };
 
     const getParties = async () => {
         if (partyRef.current) {
-            let screenshot = await takeScreenshot(partyRef.current);
+            screenshot = await takeScreenshot(partyRef.current);
             downloadScreenshot(screenshot, "Κόμματα GreekValues.png");
         } else console.error('Party reference is not set.');
     };
